@@ -11,60 +11,142 @@
 </head>
 <body>
 
-<header class="text-center bg-primary text-white p-5">
-    <img src="picofme.png" class="rounded-circle mb-3" alt="Profile Picture" width="150">
-    <h1 class="animate__animated animate__fadeInDown">Ahammed's Portfolio</h1>
-    <p class="animate__animated animate__fadeInUp">Innovating the future through creativity and technology</p>
+<header class="text-center text-white">
+    <div class="container">
+        <img src="picofme.png" class="rounded-circle profile-img mb-3" alt="Profile Picture" width="150">
+        <h1 class="animate__animated animate__fadeInDown">Ahammed's Portfolio</h1>
+        <p class="animate__animated animate__fadeInUp">Innovating the future through creativity and technology</p>
+    </div>
 </header>
 
 <section class="container my-5">
     <h2 class="section-header fade-in">About Me</h2>
-    <p class="fade-in">I completed my 12th grade and started coding during that time. With a passion for technology, I’ve been developing creative solutions in areas such as game development, AI, and robotics
-        iam also interested in Nanotechnology space exploration and astronomy.
-    </p>
+    <div class="row">
+        <div class="col-lg-8 fade-in">
+            <p>I completed my 12th grade and started coding during that time. With a passion for technology, I've been developing creative solutions in areas such as game development, AI, and robotics. I'm also deeply interested in nanotechnology, space exploration, and astronomy.</p>
+            <p>My journey in technology began when I discovered the power of coding to bring ideas to life. Since then, I've been constantly learning and expanding my skills to create innovative projects that solve real-world problems.</p>
+        </div>
+        <div class="col-lg-4 fade-in delay-1">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title">Quick Facts</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-code me-2 text-primary"></i> Self-taught programmer</li>
+                        <li><i class="fas fa-gamepad me-2 text-primary"></i> Game developer</li>
+                        <li><i class="fas fa-robot me-2 text-primary"></i> AI enthusiast</li>
+                        <li><i class="fas fa-atom me-2 text-primary"></i> Science lover</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="container my-5">
     <h2 class="section-header fade-in">Skills & Technologies</h2>
-    <ul class="list-group">
-        <li class="list-group-item fade-in">Python, HTML, CSS, JavaScript</li>
-        <li class="list-group-item fade-in">React, Kivy, Buildozer, P4A</li>
-        <li class="list-group-item fade-in">Pygame (Games), PyOpenGL (Graphics)</li>
-        <li class="list-group-item fade-in">Visual Studio Code(for coding)</li>
-    </ul>
-</section>
-<section class="container my-5">
-    <h2 class="section-header fade-in">My Experience with Steyp</h2>
-    <div class="fade-in">
-        <p>I studied coding through Steyp, which was a golden opportunity for me to dive into the world of technology. I first learned about Steyp through a tech program at my school, which introduced us to the possibilities of learning coding and building projects.</p>
-        <p><strong>Challenges Faced:</strong></p>
-        <p>At school, one major challenge I faced was not having my own laptop to study coding. I had to rely on school computers, which limited my access outside of school hours.</p>
-        <p><strong>How I Overcame Them:</strong></p>
-        <p>Later, my uncle generously gave me his laptop, previously used in his company, which allowed me to practice coding and work on projects independently. This laptop became a turning point in my learning journey, enabling me to explore and create without restrictions.</p>
-        <p>Steyp has been instrumental in shaping my skills and sparking my passion for technology. It gave me the foundation to pursue my dreams and overcome barriers, one step at a time.</p>
+    <div class="row fade-in">
+        <div class="col-md-6">
+            <div class="card mb-3">
+                <div class="card-header bg-primary text-white">
+                    <i class="fas fa-laptop-code me-2"></i> Development
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Python, HTML, CSS, JavaScript</li>
+                    <li class="list-group-item">React, Kivy, Buildozer, P4A</li>
+                    <li class="list-group-item">Visual Studio Code</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-3">
+                <div class="card-header bg-primary text-white">
+                    <i class="fas fa-gamepad me-2"></i> Game Development
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Pygame (2D Games)</li>
+                    <li class="list-group-item">PyOpenGL (3D Graphics)</li>
+                    <li class="list-group-item">Game Design & Development</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </section>
 
+<section class="container my-5">
+    <h2 class="section-header fade-in">My Experience with Steyp</h2>
+    <div class="timeline fade-in">
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <h4>Discovery</h4>
+                <p>I first learned about Steyp through a tech program at my school, which introduced us to the possibilities of learning coding and building projects.</p>
+            </div>
+        </div>
+        <div class="timeline-item right">
+            <div class="timeline-content">
+                <h4>Challenge</h4>
+                <p>At school, one major challenge was not having my own laptop to study coding. I had to rely on school computers, which limited my access outside of school hours.</p>
+            </div>
+        </div>
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <h4>Breakthrough</h4>
+                <p>My uncle generously gave me his laptop, previously used in his company, which allowed me to practice coding and work on projects independently.</p>
+            </div>
+        </div>
+        <div class="timeline-item right">
+            <div class="timeline-content">
+                <h4>Growth</h4>
+                <p>Steyp has been instrumental in shaping my skills and sparking my passion for technology. It gave me the foundation to pursue my dreams and overcome barriers.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="container my-5">
     <h2 class="section-header fade-in">Client Projects</h2>
-    <div class="row">
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="client1.png" class="card-img-top" alt="Car Website">
-                <div class="card-body">
-                    <h5 class="card-title">Car Website</h5>
-                    <p class="card-text">Built a fully functional car website similar to BMW and Porsche using HTML, CSS, and JavaScript. I designed and developed the entire website for the client.</p>
-                </div>
+    
+    <div class="macbook-frame fade-in">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="client1.png" alt="Car Website">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>Car Website</h3>
+            <p>Built a fully functional car website similar to BMW and Porsche using HTML, CSS, and JavaScript. I designed and developed the entire website for the client.</p>
+            <div>
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Bootstrap</span>
+            </div>
+            <div class="text-center mt-3">
+                <a href="#" class="btn btn-primary">View Project</a>
             </div>
         </div>
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="client2.png" class="card-img-top" alt="Cashew Factory Website">
-                <div class="card-body">
-                    <h5 class="card-title">Cashew Factory Website</h5>
-                    <p class="card-text">Developed a professional website for a cashew nut factory using HTML, CSS, and JavaScript. I handled the complete design and development process.</p>
-                </div>
+    </div>
+    
+    <div class="macbook-frame fade-in delay-1">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="client2.png" alt="Cashew Factory Website">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>Cashew Factory Website</h3>
+            <p>Developed a professional website for a cashew nut factory using HTML, CSS, and JavaScript. I handled the complete design and development process.</p>
+            <div>
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Responsive Design</span>
+            </div>
+            <div class="text-center mt-3">
+                <a href="#" class="btn btn-primary">View Project</a>
             </div>
         </div>
     </div>
@@ -72,136 +154,263 @@
 
 <section class="container my-5">
     <h2 class="section-header fade-in">Personal Projects</h2>
-
-    <!-- Optical Illusion Websites -->
+    
     <h3 class="fade-in">Optical Illusion Websites</h3>
-    <div class="row">
-        <!-- Website 1 -->
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="blackhole.png" class="card-img-top" alt="Virtual Black Hole">
-                <div class="card-body">
-                    <h5 class="card-title">Virtual Black Hole at Night Sea</h5>
-                    <p class="card-text">A fascinating optical illusion of a virtual black hole at night sea.</p>
-                    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
-                    <p><strong>My Role:</strong> Concept creator, designer, and developer.</p>
-                    <a href="https://jack-sparrow-123.github.io/optimus-prime/" target="_blank" class="btn btn-primary">Live Demo</a>
-                </div>
+    
+    <div class="macbook-frame fade-in">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="blackhole.png" alt="Virtual Black Hole">
             </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
         </div>
-        <!-- Website 2 -->
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="wormhole.png" class="card-img-top" alt="wormhole">
-                <div class="card-body">
-                    <h5 class="card-title">space ship entering in virtual worm hole</h5>
-                    <p class="card-text">optical illusion of a space ship entering in a wormhole</p>
-                    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
-                    <p><strong>My Role:</strong> Concept creator, designer, and developer.</p>
-                    <a href="https://jack-sparrow-123.github.io/ultron/" target="_blank" class="btn btn-primary">Live Demo</a>
-                </div>
+        <div class="project-details">
+            <h3>Virtual Black Hole at Night Sea</h3>
+            <p>A fascinating optical illusion of a virtual black hole at night sea created with interactive web technologies.</p>
+            <div>
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
             </div>
-        </div>
-        <!-- Website 3 -->
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="ship.png" class="card-img-top" alt="ship">
-                <div class="card-body">
-                    <h5 class="card-title">alien ship crash in desert</h5>
-                    <p class="card-text">optical illusion of crash landing of alien ship in desert</p>
-                    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
-                    <p><strong>My Role:</strong> Concept creator, designer, and developer.</p>
-                    <a href="https://jack-sparrow-123.github.io/scarge/" target="_blank" class="btn btn-primary">Live Demo</a>
-                </div>
-            </div>
-        </div>
-        <!-- Website 4 -->
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="antartica.png" class="card-img-top" alt="antartica">
-                <div class="card-body">
-                    <h5 class="card-title">shooting stars of atartica at night</h5>
-                    <p class="card-text">optical illusion of shooting stars at antartica</p>
-                    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
-                    <p><strong>My Role:</strong> Concept creator, designer, and developer.</p>
-                    <a href="https://jack-sparrow-123.github.io/loki/" target="_blank" class="btn btn-primary">Live Demo</a>
-                </div>
+            <div class="text-center mt-3">
+                <a href="jack-sparrow-123.github.io/optimus-prime" target="_blank" class="btn btn-primary">Live Demo</a>
             </div>
         </div>
     </div>
-
-    <!-- Games -->
+    
+    <div class="macbook-frame fade-in delay-1">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="wormhole.png" alt="Space Ship Wormhole">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>Space Ship Entering Virtual Wormhole</h3>
+            <p>Optical illusion of a space ship entering a wormhole with realistic visual effects.</p>
+            <div>
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="text-center mt-3">
+                <a href="jack-sparrow-123.github.io/ultron" target="_blank" class="btn btn-primary">Live Demo</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="macbook-frame fade-in">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="ship.png" alt="Alien Ship Crash">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>Alien Ship Crash in Desert</h3>
+            <p>Optical illusion of crash landing of alien ship in desert with realistic visual effects.</p>
+            <div>
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="text-center mt-3">
+                <a href="jack-sparrow-123.github.io/scarge" target="_blank" class="btn btn-primary">Live Demo</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="macbook-frame fade-in delay-1">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="antartica.png" alt="Shooting Stars">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>Shooting Stars of Antarctica at Night</h3>
+            <p>Optical illusion of shooting stars at Antarctica with realistic night sky effects.</p>
+            <div>
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="text-center mt-3">
+                <a href="jack-sparrow-123.github.io/loki" target="_blank" class="btn btn-primary">Live Demo</a>
+            </div>
+        </div>
+    </div>
+    
     <h3 class="fade-in mt-5">Games</h3>
-    <div class="row">
-        <!-- Game 1 -->
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="drone smasher.png" class="card-img-top" alt="drone smasher">
+    
+    <div class="macbook-frame fade-in">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="drone smasher.png" alt="Drone Smasher">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>Drone Smasher</h3>
+            <p>A laser gun that destroys drones. Players need to collect scores by destroying drones while avoiding black drones.</p>
+            <div>
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">CSS</span>
+            </div>
+            <div class="text-center mt-3">
+                <a href="#" class="btn btn-primary">Play Game</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="macbook-frame fade-in delay-1">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="ocean shooter.png" alt="Ocean Shooter">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>Ocean Shooter</h3>
+            <p>Players need to destroy octopus and shark while avoiding the small fish.</p>
+            <div>
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="text-center mt-3">
+                <a href="#" class="btn btn-primary">Play Game</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="macbook-frame fade-in">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="spider invasion.png" alt="Spider Invasion">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>Spider Invasion</h3>
+            <p>An insect killing game where players kill spiders and collect maximum scores.</p>
+            <div>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Pygame</span>
+                <span class="tech-badge">Kivy</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="macbook-frame fade-in delay-1">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="winter drift" alt="Winter Drift">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>Winter Drift</h3>
+            <p>A car drifting game set in winter atmosphere with realistic physics.</p>
+            <div>
+                <span class="tech-badge">Rosebud AI</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="macbook-frame fade-in">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="ufo chase.png" alt="UFO Chase">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>UFO Chase</h3>
+            <p>An endless running 3D game where a UFO chases a car through a forest at night.</p>
+            <div>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Pygame</span>
+                <span class="tech-badge">PyOpenGL</span>
+                <span class="tech-badge">Kivy</span>
+            </div>
+        </div>
+    </div>
+    
+    <h3 class="fade-in mt-5">AI Projects</h3>
+    <div class="macbook-frame fade-in">
+        <div class="macbook" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-perspective="1000">
+            <div class="macbook-screen">
+                <img src="https://via.placeholder.com/800x450/0077b6/ffffff?text=Chemistry+AI" alt="Chemistry AI Assistant">
+            </div>
+            <div class="macbook-keyboard"></div>
+            <div class="macbook-notch"></div>
+        </div>
+        <div class="project-details">
+            <h3>Chemistry AI Assistant</h3>
+            <p>An AI assistant for chemistry that provides molecular formulas and chemical information in my cloned voice using voice cloning technology.</p>
+            <div>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Dubdub AI</span>
+                <span class="tech-badge">NLP</span>
+                <span class="tech-badge">Voice Cloning</span>
+            </div>
+            <p class="mt-3"><strong>Features:</strong></p>
+            <ul>
+                <li>Voice interaction for chemistry queries</li>
+                <li>Molecular formula calculation</li>
+                <li>Chemical reaction information</li>
+                <li>Personalized voice responses</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="container my-5">
+    <h2 class="section-header fade-in">Future Goals</h2>
+    <div class="row fade-in">
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 border-primary">
+                <div class="card-header bg-primary text-white">
+                    <i class="fas fa-rocket me-2"></i> Startup Vision
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">drone smasher</h5>
-                    <p class="card-text">a laser gun that destroys drones players 
-                        need to collect scores by destroying drones two types of 
-                        drones black drones and normal drones avoid black drones.
-                    </p>
-                    <p><strong>Technologies Used:</strong> html ,javascript,css</p>
-                    <p><strong>My Role:</strong> Game developer and concept designer.</p>
-                    <a href="https://jack-sparrow-123.itch.io/drone-smasher" target="_blank" class="btn btn-primary">Live Demo</a>
+                    <h5 class="card-title">Entrepreneurial Aspirations</h5>
+                    <p class="card-text">I plan to launch startups in cutting-edge technology fields that combine my passions and skills:</p>
+                    <ul>
+                        <li>Game development studio focusing on educational and scientific games</li>
+                        <li>Robotics and AI solutions for everyday problems</li>
+                        <li>Space technology innovations</li>
+                        <li>Nanotechnology applications</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!-- Game 2 -->
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="ocean shooter.png" class="card-img-top" alt="ocean shooter">
-                <div class="card-body">
-                    <h5 class="card-title">Game 2</h5>
-                    <p class="card-text">ocean shooter</p>
-                    <p class="card-text">players need to destroy octopus and shark from a small group of fish 
-                        avoid the fishes.     
-                    </p>
-                    <p><strong>Technologies Used:</strong> html,css,javascript</p>
-                    <p><strong>My Role:</strong> Game developer and concept designer</p>
-                    <a href="https://itch.io/e/28633106/alpha-trion-published-ocean-shooter" target="_blank" class="btn btn-primary">Live Demo</a>
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 border-primary">
+                <div class="card-header bg-primary text-white">
+                    <i class="fas fa-graduation-cap me-2"></i> Learning Journey
                 </div>
-            </div>
-        </div>
-        <!-- Game 3 -->
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="spider invasion.png" class="card-img-top" alt="spider invasion">
                 <div class="card-body">
-                    <h5 class="card-title">spider invasion</h5>
-                    <p class="card-text">an insect killing game kill spiders
-                        and collect maximum scores.
-                    </p>
-                    <p><strong>Technologies Used:</strong> Python,pygame kivy</p>
-                    <p><strong>My Role:</strong> Game developer and concept designer.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Game 4 -->
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="winter drift.png" class="card-img-top" alt="winter drift">
-                <div class="card-body">
-                    <h5 class="card-title">winter drift </h5>
-                    <p class="card-text">a car drifting in winter atmosphere</p>
-                    <p><strong>Technologies Used:</strong> rosebud ai maker</p>
-                    <p><strong>My Role:</strong> Game developer and concept designer.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Game 5 -->
-        <div class="col-md-6 mb-3">
-            <div class="card fade-in">
-                <img src="ufo chase.png" class="card-img-top" alt="ufo chase">
-                <div class="card-body">
-                    <h5 class="card-title">ufo chase</h5>
-                    <p class="card-text">a endless running 3d game ufo chasing a car at forest
-                        at night.
-                      </p>
-                    <p><strong>Technologies Used:</strong> Python, Pygame,pyopeng,kivy</p>
-                    <p><strong>My Role:</strong> Game developer and concept designer.</p>
+                    <h5 class="card-title">Continuous Growth</h5>
+                    <p class="card-text">My learning roadmap includes:</p>
+                    <ul>
+                        <li>Advanced AI and machine learning</li>
+                        <li>3D game development with Unity/Unreal</li>
+                        <li>Robotics engineering</li>
+                        <li>Quantum computing basics</li>
+                        <li>Space science fundamentals</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -209,54 +418,107 @@
 </section>
 
 <section class="container my-5">
-    <h2 class="section-header fade-in">Final Thoughts</h2>
-    <p class="fade-in">
-        As I continue to learn and grow, I am passionate about exploring new frontiers and creating meaningful impact through technology and innovation. My next goals include starting startups in the fields of:
-    </p>
-    <ul class="list-group fade-in">
-        <li class="list-group-item">Game Development</li>
-        <li class="list-group-item">Robotics and Artificial Intelligence</li>
-        <li class="list-group-item">Space Exploration</li>
-        <li class="list-group-item">Nanotechnology</li>
-    </ul>
-    <p class="fade-in">
-        I believe that with creativity, dedication, and a willingness to tackle challenges, I can contribute to shaping a better, more innovative future.
-    </p>
-</section>
-<section class="container my-5">
-    <h2 class="section-header fade-in">Contact Information</h2>
-    <p class="fade-in">Feel free to connect with me on any of the platforms below:</p>
-    <div class="social-links fade-in">
-        <a href="https://x.com/YaseenYa69928" target="_blank" class="social-icon">
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://www.instagram.com/mega.tron861" target="_blank" class="social-icon">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.facebook.com/profile.php?id=61573828526908"
-         target="_blank" class="social-icon">
-            <i class="fab fa-facebook"></i>
-        </a>
-        <a href="https://github.com/jack-sparrow-123" target="_blank" class="social-icon">
-            <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.youtube.com/@megatronousprime345"
-         target="_blank" class="social-icon">
-            <i class="fab fa-youtube"></i>
-        </a>
-        <a href="mailto:megaron861@gmail.com"
-         class="social-icon">
-            <i class="fas fa-envelope"></i>
-        </a>
+    <h2 class="section-header fade-in">Contact Me</h2>
+    <div class="row fade-in">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Get in Touch</h5>
+                    <p class="card-text">Feel free to reach out for collaborations, opportunities, or just to say hello!</p>
+                    <p><i class="fas fa-envelope me-2 text-primary"></i> megatron861@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Connect With Me</h5>
+                    <div class="social-links">
+                        <a href="https://x.com/YaseenYa69928" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mega.tron861" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61573828526908" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://github.com/jack-sparrow-123" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@megatronousprime345" target="_blank" class="social-icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-
-
-<footer class="text-center bg-primary text-white p-3">
-    <p>&copy; 2025 Ahammed. All rights reserved.</p>
+<footer class="text-center text-white p-4">
+    <p class="mb-0">© 2025 Ahammed. All rights reserved.</p>
+    <p class="mb-0">Designed and developed with passion</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+<script>
+    // Initialize Vanilla Tilt
+    VanillaTilt.init(document.querySelectorAll(".macbook"), {
+        max: 15,
+        speed: 400,
+        perspective: 1000,
+        glare: true,
+        maxGlare: 0.3
+    });
+
+    // GSAP Scroll Animations
+    gsap.registerPlugin(ScrollTrigger);
+
+    document.querySelectorAll('.macbook-frame').forEach((frame, index) => {
+        gsap.fromTo(frame.querySelector('.macbook'), 
+            {
+                y: 100,
+                opacity: 0,
+                rotationX: 20
+            },
+            {
+                y: 0,
+                opacity: 1,
+                rotationX: 0,
+                duration: 1,
+                ease: 'power3.out',
+                scrollTrigger: {
+                    trigger: frame,
+                    start: 'top 80%',
+                    end: 'bottom 20%',
+                    scrub: 1,
+                    toggleActions: 'play none none reverse'
+                }
+            }
+        );
+    });
+
+    // Fade-in animation trigger
+    document.addEventListener('DOMContentLoaded', function() {
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        const fadeInObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationPlayState = 'running';
+                    fadeInObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        fadeElements.forEach(element => {
+            fadeInObserver.observe(element);
+        });
+    });
+</script>
 </body>
 </html>
