@@ -259,3 +259,57 @@
             font-weight: 600;
             letter-spacing: 0.5px;
         }
+
+
+ @media (max-width: 576px) {
+            header {
+                padding: 2rem 0;
+            }
+            .macbook-frame {
+                max-width: 95vw;
+                margin: 15px auto;
+            }
+            .macbook {
+                padding-bottom: 70%;
+                border-radius: 10px;
+            }
+            .macbook-screen {
+                top: 7%;
+                height: 75%;
+                border-width: 1px;
+            }
+            .macbook-keyboard {
+                height: 10%;
+            }
+            .macbook-notch {
+                width: 15px;
+                height: 6px;
+            }
+            .section-header {
+                font-size: 1.2rem;
+            }
+            .section-header:after {
+                width: 40px;
+            }
+            .project-details {
+                padding: 10px;
+                font-size: 0.8rem;
+            }
+            .btn-primary {
+                padding: 6px 15px;
+                font-size: 0.8rem;
+            }
+            .tech-badge {
+                font-size: 0.6rem;
+                padding: 3px 6px;
+            }
+            .social-icon {
+                font-size: 20px;
+            }
+            .profile-img {
+                width: 100px;
+            }
+            .card-body {
+                padding: 15px;
+            }
+        }
